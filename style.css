@@ -1,7 +1,13 @@
 body {
-background-color: #ff00f200;
+    background-color: #ff00f2;
 }
-h1{ 
-   color: darkblue;
-   font-size: 75px;
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+h1, h2, h3 {
+    color: darkblue;
+    font-size: 40px;
 }
