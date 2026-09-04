@@ -16,6 +16,10 @@ h1, h2, h3 {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     margin-bottom: 40px;
+
+    /* Linha branca entre as categorias */
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 40px;
 }
 
 .videos iframe {
