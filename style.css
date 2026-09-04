@@ -7,6 +7,10 @@ h1, h2, h3 {
     font-size: 40px;
 }
 
+.logo {
+    font-size: 70px;
+}
+
 .videos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -22,6 +26,7 @@ h1, h2, h3 {
 
 /* Celular */
 @media (max-width: 768px) {
+
     .videos {
         grid-template-columns: 1fr;
         gap: 15px;
@@ -33,5 +38,9 @@ h1, h2, h3 {
 
     h1, h2, h3 {
         font-size: 30px;
+    }
+
+    .logo {
+        font-size: 50px;
     }
 }
