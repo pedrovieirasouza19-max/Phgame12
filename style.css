@@ -1,13 +1,21 @@
 body {
-    background-color: #ff00f2;
+    background-color: #000000;
+}
+
+h1, h2, h3 {
+    color: #ffffff;
+    font-size: 40px;
 }
 
 .videos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    margin-bottom: 40px;
 }
-h1, h2, h3 {
-    color: darkblue;
-    font-size: 40px;
+
+.videos iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
 }
